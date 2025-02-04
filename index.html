@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-in">
+    <head>
+        <title>
+             Registration form
+        </title>
+        <link href="Public/Images/favicon.ico" rel="shortcut icon">
+        <link rel="stylesheet" type="text/css" href="style.css"
+        <meta name="viewport" content="width=device-width , intial-scale=1" >
+        <meta http-equiv="refresh" content="5">
+    </head>
+           
+    <body>
+        <form action="#" class="form-container">
+            <div>
+            <header><h1>Registartion form </h1></header>
+            
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="phone">Mobile No:</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="adress">Adress:</label>
+            <input type="textarea" id="adress" name="adress"><br><br>
+            <label for="gender">Gender:</label>
+           <input type="radio" name="Gender" value="Male">
+           <label for="male">male</label><br>
+           <input type="radio" name="Gender" value="Female">
+           <label for="female">female</label><br>
+           <input type="radio" name="Gender" value="Other">
+           <label for="other">other</label><br><br>
+           <label for="DOB">Date of birth:</label>
+           <input type="date" id="DOB" name="DOB"><br><br>
+           <label for="Subject">Select Subjects:</label>
+           <input type="checkbox" name="Subject" value="Java">
+           <label for="Subject">Java</label><br>
+           <input type="checkbox" name="Subject" value="Python">
+           <label for="Subject">Python</label><br>
+           <input type="checkbox" name="Subject" value="C++">
+           <label for="Subject">C++</label>
+           <input type="checkbox" name="Subject" value="Other">
+           <label for="Subject">Other<label><br><br>
+           <label for="year">Passing Year</label>
+            <select name="year" id="year">
+                <option value="2025">2025</option>
+                <option value="2026">2026</option>
+                <option value="2027">2027</option>
+                <option value="2028">2028</option>
+        </select><br><br>
+           <label for="password">Password:</label>
+           <input type="password" id="passwprd" required><br><br>
+           
+            <input type="submit" value="Submit">
+        </div>
+          </form>
+    </body>
+</html>
