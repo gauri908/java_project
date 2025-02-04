@@ -1,1 +1,1 @@
-Registation form
+Registration form
